@@ -1,0 +1,27 @@
+{
+  "model_name": "Gradient Boosting",
+  "target": "RETAIL SALES",
+  "features": [
+    "YEAR",
+    "MONTH",
+    "ITEM TYPE",
+    "RETAIL TRANSFERS",
+    "WAREHOUSE SALES"
+  ],
+  "metrics": {
+    "mae": 1.6928,
+    "rmse": 6.4537,
+    "r2": 0.9501
+  },
+  "item_types": [
+    "BEER",
+    "DUNNAGE",
+    "KEGS",
+    "LIQUOR",
+    "NON-ALCOHOL",
+    "REF",
+    "STR_SUPPLIES",
+    "WINE",
+    NaN
+  ]
+}
